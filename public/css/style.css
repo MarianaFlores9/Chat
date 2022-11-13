@@ -1,0 +1,65 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #190E22;
+    color: white;
+}
+.titulo{
+    background-image: url(../img/barra1.png);
+    padding: 10px;
+    height: 4rem;
+}
+
+h1{
+    font-size: 35px;
+    color: #ffffff;
+    font-family: Tahoma;
+}
+.container{
+    margin-top: 9rem;
+}
+.card{
+    background-image: url(../img/chat.png);
+    width: 391px;
+    height: 210px;
+    margin: 25px;
+    padding: 40px;
+    padding-right: 9%;
+    padding-top: 3%;
+}
+#salida{
+    background-image: url(../img/fondo.png);
+    width: 500px;
+    height: 334px;
+    margin: 25px;
+    padding: 40px;
+    margin-left: 3.5rem;
+    padding-left: 2%;
+    margin-top: -19rem;
+}
+.text-success{
+    border-radius: 10px;
+    padding: 7px;
+    margin: 7px;
+    color: #C1364A;
+    background-color: rgb(255, 255, 255);
+    
+}
+::placeholder { color: #C1364A; 
+
+}
+#enviar{
+    border-radius: 8px;
+    background-color: #C73A54;
+    color: white;
+    width: 65px;
+    height: 25px;
+    margin-right: 0.3rem;
+    padding: 2px;
+}

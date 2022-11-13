@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="titulo">
+      <center><h1>Chat con Sockets</h1></center>
+    </div>
+    <div class="container" align="right">
+      <div class="card">
+        <div id="chat">
+          <div id="notificaciones"></div>
+        </div>
+        <input type="text" id="usuario" placeholder="Usuario" class="text-success" required/>
+        <br>
+        <input type="text" id="mensaje" placeholder="Mensaje" class="text-success" required/>
+        <br>
+        <button  id="enviar">Enviar</button>
+      </div>
+    </div>
+
+
+  <div id="salida"></div>
+</div>
+<ul id="not"></ul>
+
+<script src="js/socket.io.js"></script>
+<script src="js/logica.js" charset="utf-8"></script>
+</body>
+</html>
